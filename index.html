@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="weather-app">
+        <div id="weather-form">
+            <form id="weather-form">
+                <input id="weather-search-engine" type="text" placeholder="Inter city name" >
+                <input id="weather-search-button" type="submit" value="search" >
+            </form>
+        </div>
+        <h1>Kabul</h1>
+        <div>
+        <h2>17</h2><span class="weather-unit">°C</span>
+        </div> 
+        <div><img id="weather-emoji" src="weatherimg.png" ></div>
+        <div id="weather-description"> 
+            <div id="weather-time"></div>
+            <div id="weather-wind-speed">Wind Speed: 4.9km/hr</div>
+            <div id="weather-humidity">Humidity: 63%</div>
+        </div>
+        <footer>
+        <p>This project was coded by <a href="https://github.com/BushraHaidar5" target="_blank">Bushra Haider</a>
+        and is <a href="https://github.com/BushraHaidar5/New" target="_blank">on GitHub</a> and is 
+        <a href="https://main--stalwart-selkie-2b6063.netlify.app/" target="_blank">hosted on Netlify</a> </p>
+    </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
